@@ -1,1 +1,0 @@
-# adrianalan.github.io

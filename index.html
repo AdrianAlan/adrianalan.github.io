@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adrian Alan Pol</title>
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <style>
+            :root {
+                --bg-color: #1a1a1a;
+                --text-color: #ffffff;
+                --link-color: #aaa;
+                --font-main:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Helvetica, Arial, sans-serif;
+            }
+
+            body {
+                font-family: var(--font-main);
+                background-color: var(--bg-color);
+                color: var(--text-color);
+                line-height: 1.6;
+                max-width: 600px;
+                margin: 100px auto;
+                padding: 0 20px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+            }
+
+            .social-links {
+                display: flex;
+                gap: 15px;
+                margin-bottom: 2rem;
+            }
+
+            .social-links a {
+                color: #888;
+                transition: color 0.2s;
+                display: flex;
+                align-items: center;
+            }
+
+            .social-links a:hover {
+                color: #000;
+            }
+
+            p {
+                margin-bottom: 1.5rem;
+                font-size: 1rem;
+            }
+
+            a {
+                color: var(--link-color);
+                text-decoration: underline;
+                text-underline-offset: 3px;
+            }
+
+            .section-title {
+                font-weight: 600;
+                margin-top: 3rem;
+                display: block;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            li {
+                margin-bottom: 0.5rem;
+            }
+
+            .gray {
+                color: #888;
+            }
+
+            /* Icon sizing */
+            i {
+                width: 20px;
+                height: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Adrian Alan Pol</h1>
+
+        <div class="social-links">
+            <a href="https://github.com/AdrianAlan" aria-label="GitHub">
+                <i data-lucide="github"></i>
+            </a>
+            <a
+                href="https://linkedin.com/in/adrianalanpol"
+                aria-label="LinkedIn"
+            >
+                <i data-lucide="linkedin"></i>
+            </a>
+            <a href="mailto:adrianalan.pol@gmail.com" aria-label="Email">
+                <i data-lucide="mail"></i>
+            </a>
+        </div>
+
+        <p>
+            I work at Meta on Ads Quality. Previously, I worked at
+            <a>Thomson Reuters</a>, <a>Princeton University</a>, <a>CERN</a> and
+            <a>United Nations</a>.
+        </p>
+
+        <script>
+            lucide.createIcons();
+        </script>
+    </body>
+</html>
